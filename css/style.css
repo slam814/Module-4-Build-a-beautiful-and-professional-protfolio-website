@@ -9,7 +9,7 @@ h1{
     color: orange;
 }
 section{
-    display: flex;
+    
 }
 .half-width{
     width: 50%;
@@ -35,8 +35,48 @@ padding-top: 10%;
 
 }
 
+.top-banner{
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+    display: flex;
+}
+.dream-big{
+    display: flex;
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
 
 .dream-big-padding{
     padding-right: 10%;
+}
+.skile-experiance{
+    display: flex;
+}
+.experiance-area{
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+
+}
+.experiance{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+
+}
+.full-stack{
+    border-left: 7px solid tomato;
+   
+}
+.baby-web{
+    border-left: 7px solid blue;
+   
+}
+footer{
+    text-align: center;
 }
 
